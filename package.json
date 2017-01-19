@@ -1,0 +1,26 @@
+{
+    "name": "sas",
+    "displayName": "sas-language",
+    "description": "Provides syntax highlighting in Visual Studio Code for sas files",
+    "version": "0.0.1",
+    "publisher": "VaccineAndDrugEvaluationCentre",
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "sas",
+            "aliases": ["SAS Program", "sas"],
+            "extensions": [".sas"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "sas",
+            "scopeName": "source.sas",
+            "path": "./syntaxes/sas.tmLanguage"
+        }]
+    }
+}
