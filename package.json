@@ -13,7 +13,7 @@
     "contributes": {
         "languages": [{
             "id": "sas",
-            "aliases": ["SAS Program", "sas"],
+            "aliases": ["SAS language", "sas"],
             "extensions": [".sas"],
             "configuration": "./language-configuration.json"
         }],
