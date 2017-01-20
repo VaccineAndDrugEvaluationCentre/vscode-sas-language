@@ -5,7 +5,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
-## 0.1.0 - YYYY-MM-DD
+## 0.1.0 - 2017-01-20
 ### Added
 - Initial release
 - Initial generation using Yo Code.
