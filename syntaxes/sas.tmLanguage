@@ -2,8 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>comment</key>
-	<string>A work in progress--improves over the existing in that it populates symbols, and handles comments more gracefully.</string>
 	<key>fileTypes</key>
 	<array>
 		<string>sas</string>
@@ -23,22 +21,6 @@
 		<dict>
 			<key>include</key>
 			<string>#blockComment</string>
-		</dict>
-		<dict>
-			<key>include</key>
-			<string>#macro</string>
-		</dict>
-		<dict>
-			<key>include</key>
-			<string>#constant</string>
-		</dict>
-		<dict>
-			<key>include</key>
-			<string>#quote</string>
-		</dict>
-		<dict>
-			<key>include</key>
-			<string>#operator</string>
 		</dict>
 		<dict>
 			<key>begin</key>
