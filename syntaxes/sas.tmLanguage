@@ -11,7 +11,7 @@
 	<key>foldingStopMarker</key>
 	<string>(?i:(run|quit|%mend)\s?);</string>
 	<key>name</key>
-	<string>SAS language</string>
+	<string>SAS</string>
 	<key>patterns</key>
 	<array>
 		<dict>

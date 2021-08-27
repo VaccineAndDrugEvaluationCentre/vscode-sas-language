@@ -4,6 +4,8 @@ All notable changes to the "sas" extension will be documented in this file.
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
 ## [Unreleased]
+### Changed
+- Name string from "SAS language" to "SAS" (see [issue #4](https://github.com/VaccineAndDrugEvaluationCentre/vscode-sas-language/issues/4)) 
 
 ## [0.1.2] - 2017-02-03
 ### Added
