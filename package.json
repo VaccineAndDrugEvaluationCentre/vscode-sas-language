@@ -8,31 +8,40 @@
         "vscode": "^1.5.0"
     },
     "bugs": {
-		"url": "https://github.com/VaccineAndDrugEvaluationCentre/vscode-sas-language/issues"
-	},
-	"homepage": "https://github.com/VaccineAndDrugEvaluationCentre/vscode-sas-language",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/VaccineAndDrugEvaluationCentre/vscode-sas-language.git"
-	},
+        "url": "https://github.com/VaccineAndDrugEvaluationCentre/vscode-sas-language/issues"
+    },
+    "homepage": "https://github.com/VaccineAndDrugEvaluationCentre/vscode-sas-language",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/VaccineAndDrugEvaluationCentre/vscode-sas-language.git"
+    },
     "categories": [
         "Languages"
     ],
     "galleryBanner": {
-		"color": "#f2a900",
-		"theme": "dark"
-	},
+        "color": "#f2a900",
+        "theme": "dark"
+    },
     "contributes": {
-        "languages": [{
-            "id": "sas",
-            "aliases": ["SAS language", "sas"],
-            "extensions": [".sas"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "sas",
-            "scopeName": "source.sas",
-            "path": "./syntaxes/sas.tmLanguage"
-        }]
+        "languages": [
+            {
+                "id": "SAS",
+                "aliases": [
+                    "SAS language",
+                    "sas"
+                ],
+                "extensions": [
+                    ".sas"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "SAS",
+                "scopeName": "source.sas",
+                "path": "./syntaxes/sas.tmLanguage"
+            }
+        ]
     }
 }
