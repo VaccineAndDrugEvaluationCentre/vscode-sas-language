@@ -2,7 +2,7 @@
     "name": "sas",
     "displayName": "SAS language",
     "description": "Provides syntax highlighting in Visual Studio Code for sas files",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "publisher": "VaccineAndDrugEvaluationCentre",
     "engines": {
         "vscode": "^1.5.0"
